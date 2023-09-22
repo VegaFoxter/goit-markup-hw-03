@@ -8,6 +8,7 @@ body{
     line-height: 1.50;
     letter-spacing: 0.32px;
 
+
 }
 
  p,
@@ -43,7 +44,6 @@ body{
  .header{
     padding-top: 24px;
     padding-bottom: 24px;
-    height: 72px;
     border-bottom: 1px solid #e7e9fc
  }
 
