@@ -326,6 +326,12 @@ body{
 .portfolio-item{
     display: flex;
     width: calc((100% - 48px) / 3);
+    border-radius: 0px 0px 4px 4px;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 24px;
 }
 
 
