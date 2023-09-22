@@ -273,9 +273,9 @@ body{
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 0px;
-    gap: 24px;
     row-gap: 48px;
     column-gap: 24px;
+    gap: 24px;
 }
 
 .team-item {
@@ -290,7 +290,7 @@ body{
 
 .name-position {
     padding-top: 32px;
-        padding-bottom: 32px;
+    padding-bottom: 32px;
 }
 
 .name-position .info-title {
@@ -324,7 +324,7 @@ body{
 }
 
 
-.portfolio-list .team-item{
+.portfolio-item{
     display: flex;
     width: calc((100% - 48px) / 3);
 }
@@ -351,13 +351,16 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     font-family: Raleway, sans-serif;
-    
 }
+
+.footer-loogo{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
 .foot-text{
     color: #F4F4FD;
     max-width: 264px;
     margin-top: 16px;
 }
-.foot-style-container .logo{
-    margin-bottom: 16px;
-}
+
