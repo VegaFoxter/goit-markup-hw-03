@@ -139,9 +139,13 @@ body{
     margin-right: 0;
 }
 
-<===========Основна частина=============>
 
-======= 2 ========
+
+.info {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 
 .visually-hidden {
     position: absolute;
@@ -205,12 +209,8 @@ body{
     background-color: #404BBF
 }
 
-========= 2 =========
 
-.info{
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
+
 
 .info-list {
     display: flex;
@@ -221,6 +221,7 @@ body{
 
 .info-box {
     width: calc((100% - 72px) / 4);
+    gap: 24px;
 }
 
 .info-title {
@@ -247,10 +248,11 @@ body{
     margin-bottom: 16px;
 }
 
-========== 3 ===========
+
 
 .sect-team {
-    padding: 120px 0;
+    padding-top: 120px;
+        padding-bottom: 120px;
 }
 
 .sect-team-container{
@@ -281,14 +283,14 @@ body{
     border-radius: 0px 0px 4px 4px;
     background-color: #FFFFFF;
     flex-direction: column;
-    padding-bottom: 0px;
     justify-content: center;
     align-items: center;
     column-gap: 24px;
 }
 
 .name-position {
-    padding: 32px 0;
+    padding-top: 32px;
+        padding-bottom: 32px;
 }
 
 .name-position .info-title {
@@ -300,7 +302,7 @@ body{
     text-align: center;
 }
 
-========= 4 =========
+
 
 .select-portfolio{
     padding-top: 120px;
@@ -331,13 +333,14 @@ body{
 =========footer=========
 
 .foot-style{
-    padding: 100px 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
 
 }
 
 .foot-style-container{
     background:#2E2F42;
-    padding-top: 101px;
+    padding-top: 100px;
     padding-bottom: 100px;
 }
 .foot-logo{
