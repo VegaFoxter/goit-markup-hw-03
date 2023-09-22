@@ -34,7 +34,7 @@ body{
  }
 
 .list {
-    list-style: none;
+    list-style-type: none;
 }
 
 .link {
@@ -276,6 +276,7 @@ body{
     row-gap: 48px;
     column-gap: 24px;
     gap: 24px;
+
 }
 
 .team-item {
@@ -320,18 +321,17 @@ body{
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
 }
 
 
 .portfolio-item{
     display: flex;
     width: calc((100% - 48px) / 3);
-    border-radius: 0px 0px 4px 4px;
-    background-color: #FFFFFF;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    column-gap: 24px;
+    flex-direction: column; 
 }
 
 
