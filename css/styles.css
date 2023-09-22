@@ -7,7 +7,53 @@ body{
     font-weight: 400;
     line-height: 1.50;
     letter-spacing: 0.32px;
+
 }
+
+ p,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     margin-top: 0;
+     margin-bottom: 0;
+ }
+
+ ul,
+ ol {
+     margin-top: 0;
+     margin-bottom: 0;
+     padding-left: 0;
+ }
+
+ img {
+     display: block;
+     width: 100%;
+ }
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+ .header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    height: 72px;
+ }
+
+ .container{
+    width: 1140px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+    outline: 2px solid red;
+}
+
  
 .logo{
     font-family: Raleway, sans-serif;
@@ -19,8 +65,23 @@ body{
     color: #4d5ae5;
 }
 
+nav{
+    display: flex;
+    width: 100%;
+}
 .stud-logo{
     color: #2E2F42;
+}
+
+.header-container{
+display: flex;
+flex-grow: 1;
+justify-content: space-between;
+}
+.nav-list{
+    display: flex;
+    gap: 40px;
+
 }
 .nav-link{
    font-weight: 500;
@@ -30,6 +91,9 @@ body{
    letter-spacing: 0.02em; 
 }
 
+.nav-item{
+    display: flex;
+}
 
 .nav-link:hover{
     color: #404BBF;
@@ -38,9 +102,18 @@ body{
     color: #404BBF;
 }
 .adress-menu{
+    display: flex;
    font-style: normal; 
+   
+}
+.adress-list{
+    display: flex;
 }
 
+.adress-item{
+    display: flex;
+   
+}
 .adress-link{
     color: #434455;
 }
@@ -58,10 +131,30 @@ body{
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    margin-bottom: 48px;
 }
 .sect-one{
-    background: #2E2F42;
     text-align: center;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.sect-one-container{
+   background: #2E2F42; 
+   padding-top: 188px;
+   padding-right: 472px;
+   padding-bottom: 188px;
+   padding-left: 472px;
 }
 .but-service{
     background-color: #4D5AE5;
@@ -82,12 +175,17 @@ body{
     background-color: #404BBF
 }
 
+.info{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .info-text{
     color: #434455;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-bottom: 32px;
 }
 
 .info-title{
@@ -96,6 +194,20 @@ body{
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+.info-list{
+    display: inline-flex;
+    gap: 24px;
+   width: calc(1440-5*24)/4;
+}
+
+.title-corect{
+    margin-bottom: 16px;
+}
+.sect-team-container{
+   background: #F4F4FD; 
 }
 .team-titile{
     color:#2e2f42;
@@ -105,16 +217,47 @@ body{
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.team-list{
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+    width: calc(1440-5*24)/4;
+    padding-bottom: 0px;
 }
 .team-item{
     background-color: #FFFFFF;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex-direction: column;
+    padding-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);      
 }
 .sect-team{
-    background: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
+.select-portfolio{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .foot-style{
+    
+    
+ 
+}
+.foot-style-container{
     background:#2E2F42;
+    padding-top: 101px;
+    padding-bottom: 100px;
 }
 .foot-logo{
     color: #F4F4FD;
@@ -124,7 +267,18 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     font-family: Raleway, sans-serif;
+    
 }
 .foot-text{
     color: #F4F4FD;
+    margin-top: 17px;
+}
+
+.info-box{
+    box-sizing: border-box;
+    display: flex;
+    width: 264px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
 }
