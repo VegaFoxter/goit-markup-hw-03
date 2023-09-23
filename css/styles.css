@@ -329,7 +329,6 @@ body{
 
 
 .portfolio-item{
-    display: flex;
     width: calc((100% - 48px) / 3);
     flex-direction: column; 
 }
