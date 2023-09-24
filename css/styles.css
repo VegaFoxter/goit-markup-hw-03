@@ -43,8 +43,6 @@ body{
     text-decoration: none;
 }
  .header{
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc
  }
 
@@ -161,17 +159,11 @@ body{
 }
 
 .sect-one{
+    background: #2E2F42; 
     text-align: center;
     padding: 188px 0
 }
 
-.sect-one-container{
-   background: #2E2F42; 
-   padding-top: 188px;
-   padding-right: 472px;
-   padding-bottom: 188px;
-   padding-left: 472px;
-}
 
 .title{
     color: #FFF;
@@ -180,8 +172,10 @@ body{
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    margin-bottom: 48px;
+    
     max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .but-service{
@@ -191,7 +185,7 @@ body{
     font-weight: 500;
     cursor: pointer;
     font-family: "Roboto", sans-serif;
-    margin: 0auto;
+    margin: 0 auto;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -230,7 +224,6 @@ body{
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-top: 32px;
     margin-bottom: 8px;
 
 }
@@ -241,7 +234,6 @@ body{
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-bottom: 32px;
 }
 
 .title-corect{
@@ -251,16 +243,11 @@ body{
 
 
 .sect-team {
+    background: #F4F4FD; 
     padding-top: 120px;
     padding-bottom: 120px;
 }
 
-.sect-team-container{
-   background: #F4F4FD; 
-    padding-top: 120px;
-    padding-bottom: 120px;
-   
-}
 .team-titile{
     color:#2e2f42;
     text-align: center;
@@ -313,7 +300,6 @@ body{
 }
 
 .portf-conteiner{
-    padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
@@ -338,15 +324,11 @@ body{
 
 
 .foot-style{
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.foot-style-container{
     background:#2E2F42;
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
 .foot-logo{
     color: #F4F4FD;
     font-size: 18px;
